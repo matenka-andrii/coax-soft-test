@@ -1,0 +1,35 @@
+.category {
+    display: flex;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    i {
+        position: relative;
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        border: 2px solid #e2e7ee;
+        border-radius: 4px;
+        &:after {
+            position: absolute;
+            left: 3px;
+            top: 3px;
+            width: 14px;
+            height: 14px;
+            background-color: transparent;
+            border-radius: 2px;
+            transition: background-color .3s ease;
+            content: '';
+        }
+    }
+    span {
+        line-height: 24px;
+    }
+}
+.selected {
+    i {
+        &:after {
+            background-color: #e2e7ee;
+        }
+    }
+}

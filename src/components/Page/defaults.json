@@ -1,0 +1,57 @@
+{
+    "defaultCategories": [
+        {
+            "id":       0,
+            "name":     "Notebooks",
+            "selected": false
+        },
+        {
+            "id":       1,
+            "name":     "Tablets",
+            "selected": false
+        },
+        {
+            "id":       2,
+            "name":     "Mobile phones",
+            "selected": false
+        }
+    ],
+    "defaultProducts": [
+        [
+            {
+                "id": "Identifier",
+                "name": "Product Name",
+                "price": "Price",
+                "rating": "Rating"
+            },
+            [ 1, "Apple MacBook Pro 13", "$1100", 4.7 ],
+            [ 2, "DELL Inspiron 3567", "$500", 3.8 ],
+            [ 3, "Samsung Notebook 9", "$930", 2.3 ],
+            [ 4, "Lenovo Yogabook", "$430", 1.0 ]
+        ],
+        [
+            {
+                "id": "Identifier",
+                "name": "Product Name",
+                "price": "Price",
+                "rating": "Rating"
+            },
+            [ 1, "Apple iPad Pro", "$700", 3.4 ],
+            [ 2, "Galaxy Tab S3", "$350", 4.5 ],
+            [ 3, "Lenovo Tab 7", "$430", 2.2 ],
+            [ 4, "Prestigio Grace 3157", "$830", 5.0 ]
+        ],
+        [
+            {
+                "id": "Identifier",
+                "name": "Product Name",
+                "price": "Price",
+                "rating": "Rating"
+            },
+            [ 1, "iPhone 5", "$300", 5 ],
+            [ 2, "Samsung Galaxy S9 Plus", "$400", 3.8 ],
+            [ 3, "Nokia Lumia 1320", "$130", 2.1 ],
+            [ 4, "Google Pixel 2 XL", "$310", 4.3 ]
+        ]
+    ]
+}

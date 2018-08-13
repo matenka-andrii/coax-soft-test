@@ -1,0 +1,33 @@
+.page {
+    display: flex;
+    width: 1024px;
+    padding: 50px 50px 20px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    ul {
+        margin: 0;
+        padding: 0 0 15px;
+        list-style: none;
+    }
+
+    .tableInStart {
+        opacity: 0;
+    }
+    .tableInEnd {
+        transition: opacity .3s ease;
+        opacity: 1;
+    }
+    .tableExitStart {
+        opacity: 1;
+    }
+    .tableExitEnd {
+        transition: opacity .3s ease;
+        opacity: 0;
+    }
+
+}
+.products {
+    width: 700px;
+    margin-left: auto;
+}
